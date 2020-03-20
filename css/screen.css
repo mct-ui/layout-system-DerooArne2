@@ -41,6 +41,48 @@ html {
 /*------------------------------------*\
   #Elements
 \*------------------------------------*/
+/*
+    Objects: Row
+    ---
+    Creates a horizontal row that stretches the viewport and adds padding around children
+*/
+
+.o-row {
+    padding: 24px 24px 0;
+    display: flow-root;
+}
+
+.o-row--primary {
+    background-color:#e85d01 ;
+    color: white;
+}
+
+.o-row--dark {
+    background-color: darkgray;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .o-row--lg {}
+}
+/*
+    Objects: Container
+    ---
+    Creates a horizontal container that sets de global max-width
+*/
+
+@media (max-width: 1em){
+    .o-container {
+    
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+    
+    
+
+
 
 /*
     Elements: Images
