@@ -71,12 +71,37 @@ html {
     Creates a horizontal container that sets de global max-width
 */
 
-@media (max-width: 1em){
-    .o-container {
+
+.o-container {
+    max-width: 90em;
+    margin:0 auto;
     
-        margin-left: auto;
-        margin-right: auto;
-    }
+}
+
+/*
+    Utilities: max-width
+    ---
+    Utility classes to put specific max widths onto elements
+*/
+
+.u-max-width-sm {
+    max-width: 36em !important;
+}
+
+.u-max-width-md {
+    max-width: 45em;
+}
+
+.u-max-width-lg {
+    max-width: 60 em;
+}
+
+.u-max-width-xl {
+    max-width: 75em;
+}
+
+.u-max-width-none {
+    max-width: none;
 }
 
     
